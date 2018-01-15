@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="大调研">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>大调研</title>
+    <style>
+        /*通用*/
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            text-transform:none
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+        input,textarea{
+            outline: none;
+            border: none;
+            list-style: none;
+        }
+        ul,li,ol{
+            list-style: none;
+        }
+        html,body{
+            width: 100%;
+            height:100%;
+            font-family: "Microsoft YaHei";
+            overflow-x:hidden;
+        }
+
+
+        /*通用end*/
+        body {
+            background: #F4F4F4;
+        }
+        .container{
+            padding:0;
+        }
+
+        .detail{
+
+            margin-top: 3%;
+        }
+        .detail .col-xs-6{
+            background: #fff;
+            padding: 5% 0;
+            margin-bottom: 1%;
+        }
+        .detail{
+            text-align: center;
+        }
+        .detail .detail_icon{
+            display: inline-block;
+        }
+        .detail .detail_icon img{
+            width:65%;
+            padding-left:15px;
+        }
+        .detail .center-block{
+            padding-top:15px ;
+            font-size: 1.5em;
+            padding-left:15px;
+        }
+
+        .detail .row>div:nth-child(1),.detail .row>div:nth-child(3){
+            border-right: 5px solid #f4f4f4;
+        }
+
+        .detail .row>div:nth-child(2),.detail .row>div:nth-child(4){
+            padding-right:15px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <img src="img/jdq.png" class="img-responsive" alt="">
+        </div>
+    </div>
+</div>
+<div class="container detail">
+    <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6">
+            <div class="detail_icon text-center">
+                <img  src="img/bjcf.png" alt="风采展示">
+            </div>
+            <span class="center-block">风采展示</span>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6">
+            <div class="detail_icon text-center">
+                <img src="img/sign.png" alt="大调研签到">
+            </div>
+            <span class="center-block">大调研签到</span>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6">
+            <div class="detail_icon text-center">
+                <img src="img/cj.png" alt="企业需求采集">
+            </div>
+            <span class="center-block">企业需求采集</span>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6">
+            <div class="detail_icon text-center">
+                <img src="img/point.png" alt="热点回应">
+            </div>
+            <span class="center-block">热点回应</span>
+        </div>
+    </div>
+</div>
+<script src="../node_modules/vconsole/dist/vconsole.min.js"></script>
+<script>
+    var vConsole = new VConsole("maxLogNumber");
+    // vConsole.setOption('maxLogNumber', 5000);
+     console.log("hello world!")
+</script>
+</body>
+</html>

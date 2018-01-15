@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="调查问卷">
+    <link rel="stylesheet" href="css/cc-25.css"/>
+    <title>调查问卷</title>
+</head>
+<script>
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    docEl.style.fontSize = 50 * (clientWidth / 375) + 'px';
+                };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+<script src="js/jquery-2.1.4.js"></script>
+<body>
+    <div class="dc">
+        <img src="img/dcb_02.png" alt="" class="dc-bg"/>
+        <img src="img/return.png" alt="" class="return"/>
+        <span>调查问卷</span>
+    </div>
+    <div class="dc-text">
+        <div class="dc-text-con">问题1：办税服务厅调查问卷</div>
+        <img src="img/dc-text.png" alt="" class="dc-img"/>
+    </div>
+    <div class="dc-text">
+        <div class="dc-text-con">问题2：办税服务厅需要满足那些条件才<br>可以办理</div>
+        <img src="img/dc-text.png" alt="" class="dc-img"/>
+    </div>
+    <div class="dc-text">
+        <div class="dc-text-con">问题3：办税服务厅需要缴费要到哪个办<br>税厅办理</div>
+        <img src="img/dc-text.png" alt="" class="dc-img"/>
+    </div>
+</body>
+<script>
+    $(".return").on("click",function () {
+        window.history.go(-1);
+    })
+</script>
+</html>
