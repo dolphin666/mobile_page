@@ -1,5 +1,5 @@
 Webstorm keymap
-===============
+=
 Shift+F6                    重构-重命名
 Ctrl+X                      删除行
 Ctrl+Shift+Up/Down          代码向上/向下移动
