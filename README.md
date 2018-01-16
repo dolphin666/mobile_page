@@ -1,5 +1,5 @@
 # 移动端布局的方法		
-	1.单位用rem   不要用px   不要用bootstrap   
+## 1.单位用rem   不要用px   不要用bootstrap   
 ```
 <script>
         (function (doc, win) {
@@ -28,5 +28,9 @@
 
 	不过这是在设计稿为750 的情况下   
 	如果设计稿为640   就把js中间   那个375  改为320   就好了
-	2.调试
-		
+	
+## 2.调试
+	 下载Vconsole[学习Vconsole](http://blog.csdn.net/aaa333qwe/article/details/78261442)
+	 
+## 3.学习使用md编码方式
+	[GitHub上README.md教程](http://blog.csdn.net/kaitiren/article/details/38513715)
