@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+input,
+textarea {
+  outline: none;
+  border: none;
+  list-style: none;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  background: #FFF;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.dc {
+  width: 100%;
+  height: 7.06rem;
+  margin-top: .14rem;
+  position: relative;
+}
+.dc-bg {
+  width: 100%;
+  height: 7.06rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.gg {
+  width: 100%;
+  height: auto;
+  margin-top: .09rem;
+  padding: .05rem  .44rem .05rem .19rem;
+  border-top: 1px solid #F3F1FD;
+  border-bottom: 1px solid #F3F1FD;
+  overflow: hidden;
+}
+.gg_title {
+  display: inline-block;
+  float: left;
+  font-size: 0.38rem;
+}
+.gg_text {
+  float: right;
+  color: #E81B26;
+}
+.gg_b {
+  width: 100%;
+  height: 1.6rem;
+  margin-top: .1rem;
+  border-top: 1px solid #F3F1FD;
+  border-bottom: 1px solid #F3F1FD;
+  overflow: hidden;
+}
+.gg_b_1 {
+  float: left;
+  width: 8rem;
+  height: 1.65rem;
+}
+.gg_b_1 div {
+  float: left;
+  width: 9rem;
+  padding-top: .14rem;
+  padding-bottom: .14rem;
+  padding-left: .6rem;
+}
+.gg_b_1 div img {
+  float: left;
+  width: .5rem;
+  height: .45rem;
+}
+.gg_b_1 p {
+  float: left;
+  width: 6rem;
+  font-size: .32rem;
+}
+.gg_b_2 {
+  float: right;
+  width: 1.65rem;
+  height: 1.65rem;
+  padding-right: .35rem;
+}
+.gg_b_2 img {
+  width: 1.45rem;
+  height: 1.45rem;
+}
+.gg_ft {
+  width: 100%;
+  height: 7.25rem;
+  margin-top: .1rem;
+}
+.gg_ft a {
+  float: left;
+  width: 50%;
+}
+.gg_ft a img {
+  width: 100%;
+  height: 7.08rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+.gg_ft a:nth-child(1) {
+  padding-right: .13em;
+}
+.gg_ft a:nth-child(2) {
+  padding-left: .13em;
+}

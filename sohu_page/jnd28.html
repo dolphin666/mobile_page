@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head lang="en">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="description" content="加拿大28">
+        <link rel="stylesheet" href="css/jnd28.css"/>
+        <link rel="stylesheet" href="css/animate.css"/>
+        <title>加拿大28</title>
+    </head>
+</head>
+<body>
+<script>
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                docEl.style.fontSize = 50 * (clientWidth / 541) + 'px';
+            };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+<div class="jnd">
+    <div class="jnd_pt jnd_com">
+        <div class="rukou">
+            <img src="image/pt.jpg" alt="普通会员">
+        </div>
+        <div class="yxsm">
+            <span>普通会员厅</span>
+            <a href="#">
+                <img src="image/yxsm.png" alt="游戏说明">
+            </a>
+        </div>
+    </div>
+    <div class="jnd_pt jnd_com">
+        <div class="rukou">
+            <img src="image/gb.jpg" alt="贵宾会员">
+        </div>
+        <div class="yxsm">
+            <span>贵宾会员厅</span>
+            <a href="#">
+                <img src="image/yxsm.png" alt="游戏说明">
+            </a>
+        </div>
+    </div>
+    <div class="jnd_pt jnd_com">
+        <div class="rukou">
+            <img src="image/vip.jpg" alt="VIP会员">
+        </div>
+        <div class="yxsm">
+            <span>VIP会员厅</span>
+            <a href="#">
+                <img src="image/yxsm.png" alt="游戏说明">
+            </a>
+        </div>
+    </div>
+
+</div>
+<ul class="jnd_b">
+    <li>
+        <a href="#">
+            <img src="image/sy1.jpg" alt="首页">
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="image/bjbtn.jpg" alt="背景28">
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="image/jndbtn.jpg" alt="加拿大28">
+        </a>
+    </li>
+
+</ul>
+</body>
+</html>

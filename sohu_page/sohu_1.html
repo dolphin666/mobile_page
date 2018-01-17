@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="搜狐娱乐游戏">
+    <link rel="stylesheet" href="css/sohu_1.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <title>搜狐娱乐游戏</title>
+</head>
+<script>
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                docEl.style.fontSize = 50 * (clientWidth / 541) + 'px';
+            };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+<body>
+<div class="dc">
+    <img src="image/1.jpg" alt="" class="dc-bg"/>
+</div>
+<div class="gg">
+    <span class="gg_title">公告</span>
+    <marquee  class="gg_text" direction="left" align="bottom" height="18" width="85%" scrollamount="5" >每次上分前请务必先向我们的</marquee>
+</div>
+<div class="gg_b">
+    <div class="gg_b_1">
+        <div>
+            <img src="image/wjye_03.png" alt="玩家余额">
+            <p>玩家余额 <span id="wjye">161659629</span> 元</p>
+        </div>
+        <div><img src="image/gzrs4_04.png" alt="关注人数">
+            <p>关注人数 <span id="gzrs">20549547</span> 人</p></div>
+    </div>
+    <div class="gg_b_2 animated bounce infinite" >
+        <img class="bounce infinite" src="image/zql1.jpg" alt="赚钱率">
+    </div>
+</div>
+<div class="gg_ft">
+    <a href="#">
+        <img src="image/2.jpg" alt="">
+    </a>
+    <a href="#">
+        <img src="image/3.jpg" alt="">
+    </a>
+</div>
+
+<script>
+    let i=161659629;
+    window.setInterval(function() {
+        i= i+289;
+        document.getElementById('wjye').innerHTML=i;
+    }, 5000);
+    let j=161659629;
+    window.setInterval(function() {
+        j= j+69;
+        document.getElementById('gzrs').innerHTML=j;
+    }, 3000);
+</script>
+</body>
+</html>
