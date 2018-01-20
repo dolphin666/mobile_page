@@ -1,6 +1,6 @@
-WebStorm keymap
-=
-						Shift+F6	                重构-重命名
+#WebStorm keymap
+==
+	  Shift+F6	                重构-重命名
           Ctrl+X	                删除行
           Ctrl+Shift+Up/Down	        代码向上/下移动。
           F2 &Shift+F2	            	高亮错误或警告快速定位
