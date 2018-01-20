@@ -1,7 +1,7 @@
 #WebStorm keymap
 ==
-	  Shift+F6	                重构-重命名
-          Ctrl+X	                删除行
+	Shift+F6	                重构-重命名
+	Ctrl+X	                删除行
           Ctrl+Shift+Up/Down	        代码向上/下移动。
           F2 &Shift+F2	            	高亮错误或警告快速定位
           Ctrl+Shift+F7	            	高亮显示所有该文本，按Esc高亮消失。
