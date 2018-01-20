@@ -9,7 +9,7 @@
 	Ctrl+/ & Ctrl+Shift+/	    	注释（// 或者/*…*/ ）
 	Ctrl+D	                	复制行
 	Ctrl+G	                	查找行
-	写代码，按Tab	            生成代码
+	写代码,按Tab	             生成代码
 	Ctrl+B或Ctrl+鼠标左键单击	   快速打开光标处的类或方法，（NB的功能）
 	Ctrl + Shift + I	        打开定义快速查找
 	Alt + Up/Down	            	跳转到上一个/下一个方法
